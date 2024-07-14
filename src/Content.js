@@ -26,10 +26,6 @@ function Content() {
                 {tab}
             </button>
            ))}
-           {/* <input
-           value={title}
-           onChange={event => setTitle(event.target.value)}
-           /> */}
             <ul>
                 {posts.map(post => (
                     <li key={post.id}>{post.title || post.name}</li>
